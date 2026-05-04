@@ -1,0 +1,7 @@
+interface:
+  display_name: "Offensive OSINT"
+  short_description: "Concrete OSINT references for authorized recon"
+  default_prompt: "Use $offensive-osint to find concrete references for an authorized reconnaissance task."
+
+policy:
+  allow_implicit_invocation: true

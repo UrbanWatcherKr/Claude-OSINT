@@ -277,6 +277,26 @@ cp -r Claude-OSINT/skills/* ~/.claude/skills/
 
 Then in any Claude Code session, ask an OSINT question — both skills auto-load and trigger on relevant phrases (50+ trigger phrases each).
 
+### With Codex
+
+The Codex-ready copies live under `codex/skills/`. They keep the original Claude skills intact, but move the long upstream content into references so Codex can load it progressively.
+
+```bash
+# macOS/Linux
+git clone https://github.com/elementalsouls/Claude-OSINT.git
+mkdir -p ~/.codex/skills
+cp -r Claude-OSINT/codex/skills/* ~/.codex/skills/
+```
+
+```powershell
+# Windows PowerShell
+git clone https://github.com/elementalsouls/Claude-OSINT.git
+New-Item -ItemType Directory -Force $HOME\.codex\skills | Out-Null
+Copy-Item -Recurse -Force Claude-OSINT\codex\skills\* $HOME\.codex\skills\
+```
+
+In Codex, invoke `$osint-methodology` for planning, scope, evidence, and reporting, and `$offensive-osint` for concrete paths, dorks, regexes, and helper scripts.
+
 ### With the Claude Skills System
 
 ```bash

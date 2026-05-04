@@ -1,0 +1,7 @@
+interface:
+  display_name: "OSINT Methodology"
+  short_description: "Structured OSINT methodology for authorized recon"
+  default_prompt: "Use $osint-methodology to plan an authorized external reconnaissance workflow."
+
+policy:
+  allow_implicit_invocation: true
