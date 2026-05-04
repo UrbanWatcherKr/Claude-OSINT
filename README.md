@@ -6,6 +6,8 @@
 
 Built by **[ElementalSoul](https://github.com/elementalsouls)** — GenAI Security Research.
 
+This fork is a Codex-ready adaptation of ElementalSoul's Claude-OSINT, preserving the original MIT license and attribution.
+
 ---
 
 ## What is this?
